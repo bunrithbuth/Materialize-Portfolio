@@ -9,6 +9,7 @@
     <script src="assets/js/javascript.js"></script>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here|Delius+Unicase" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- Import assets/css/style.css -->
@@ -24,7 +25,7 @@
     <header>
         <nav>
             <div class="nav-wrapper black">
-                <a href="index.html" class="brand-logo center">Bunrith Buth</a>
+                <a href="index.html" class="brand-logo center"> Bunrith Buth</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">About</a></li>
@@ -42,35 +43,83 @@
     </header>
 
     <main>
-        Contact
+        <div class="parallax-container" style="height: 200px;">
+            <div class="parallax"><img src="assets/images/Honey_Island.png"></div>
+        </div>
+
+        <div class="section white">
+            <div class="center">
+                <div class="contact-title">
+                    Contact Me!
+                </div>
+                <div class="contact-subtitle">
+                    Please Fill Out The Form Below!
+                </div>
+            </div>
+
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                    </div>
+                            
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>                                    
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/images/Honey_Island.png"></div>
+        </div>                     
     </main>
 
     <footer class="page-footer black">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Bunrith's Materailize Website</h5>
-                    <p class="grey-text text-lighten-4">Welcome to Bunrith's Materialized Website.  Best Website of the Century!</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <div class="row">
-                        <div class="col l6 s12">
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="index.html">About</a></li>
-                                <li><a class="grey-text text-lighten-3" href="portfolio.html">Portfolio</a></li>
-                                <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col l6 s12">    
-                            <ul>
-                                <li><a class="grey-text text-lighten-3" href="">Resume</a></li>
-                                <li><a class="grey-text text-lighten-3" href="">LinkedIn</a></li>
-                                <li><a class="grey-text text-lighten-3" href="https://github.com/bunrithbuth">GitHub Repo</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="col l6 s12">
+                <h5 class="white-text">Bunrith's Materailize Website</h5>
+                <p class="grey-text text-lighten-4">Welcome to Bunrith's Materialized Website.  Best Website of the Century!</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="index.html">About</a></li>
+                    <li><a class="grey-text text-lighten-3" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                        <li><a class="grey-text text-lighten-3" href="">Resume</a></li>
+                        <li><a class="grey-text text-lighten-3" href="">LinkedIn</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/bunrithbuth">GitHub Repo</a></li>
+                </ul>
+            </div>
             </div>
         </div>
         <div class="footer-copyright">
