@@ -17,8 +17,8 @@ body {
 
 .bar {
     width: 100%;
-    height: 0px;
-    border: 1px solid black;
+    height: 60px;
+    border-bottom: 1px solid black;
     box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 20px;
@@ -55,6 +55,8 @@ body {
     .card-image {
         height: 130px !important;
         object-fit: cover !important;
+        background-size:cover;
+        background-position:center;
     }
     .card-content .activator {
         width: auto;
