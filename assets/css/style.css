@@ -1,0 +1,65 @@
+/** Sticky Footer **/
+@media screen and (min-width: 980px) {
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.bar {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.contact-title, .about-title {    
+    font-family: 'Delius Unicase', cursive;
+    font-size: 50px;
+    font-weight: 700;    
+    margin-top: 80px;                         
+  }
+
+  .contact-subtitle {
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 990px) {
+    img .activator {
+      height: auto;
+      height: 150px;
+    }
+    .card-image {
+        height: 150px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .img .activator {
+      width: auto;
+      height: 130px;
+    }
+    .card-image {
+        height: 130px !important;
+        object-fit: cover !important;
+        background-size:cover;
+        background-position:center;
+    }
+    .card-content .activator {
+        width: auto;
+        height: 64px;
+    }
+  }
